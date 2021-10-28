@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/acme/-/acme-4.5.0.tgz#922a3b49b311e3095d1aaab58cdd92b5281ce9ed"
   integrity sha512-gyN3/QA0+qGfCLbMnGojctbZOAOr5L50kBb9cyqS06CGCafCTwnoAZXse74tSpmfCEgWav3qUx9cECaBCy196A==
 
+"@fontsource/lora@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.5.0.tgz#1b230175236c35d13b3a69a346ca5b0e2df0dbcf"
+  integrity sha512-4ThGnMFbktlQqsTW7kCdzT888esMFfnbHE9PJMQCtcP2JUIJXDQpxvmtlsio1AJBnvUxPxegAAp76Q8lm7t1VQ==
+
 "@fontsource/nunito@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@fontsource/nunito/-/nunito-4.5.0.tgz#a264413e974ee12ec689ec008bf8ecb41724cec7"
