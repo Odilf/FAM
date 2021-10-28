@@ -8,4 +8,4 @@ This repository contains the source code for fam.odilf.com, the oficial Maggie f
 
 If you haven't yet been delighted by Maggie, you should. It's Javi "Big Dong Long Schlong" Valcarcel's cat. 
 
-<img src="static/cool.png" width=800>
+<img src="https://github.com/Odilf/FAM/blob/master/static/maggie_material/serene.png" width=800>
