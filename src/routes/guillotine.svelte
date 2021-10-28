@@ -23,7 +23,7 @@
 <Back/>
 
 <style>
-	@import "@fontsource/Lora";
+	@import "@fontsource/lora";
 	* {
 		font-family: Lora;
 	}
