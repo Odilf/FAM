@@ -3,6 +3,8 @@
 </script>
 
 <body>
+
+	<h1> DEATH BY GUILLOTINE </h1>
 	<p>
 		"Death by guillotine would be painless because it immediately severs the nerves from your spinal cord to brain. The clean cut would paralyze you after severing your vertebrae, so pain receptors would no longer send signals as your nerves are severed and your body is non-functional. This is, of course, assuming you’re alive after having your head completely chopped off by a 10-pound blade accelerating at speeds of 40 mph, which you wouldn't be. You wouldn't even feel the cold touch of the blade as it sliced into your neck hair; it would be too fast.
 	<br>
@@ -21,6 +23,10 @@
 <Back/>
 
 <style>
+	@import "@fontsource/Lora";
+	* {
+		font-family: Lora;
+	}
 	body {
 		width: min(60ch, 100%);
 		text-align: justify;
