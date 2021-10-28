@@ -1,0 +1,54 @@
+@import "@fontsource/acme";
+@import "@fontsource/nunito";
+
+:root {
+	font-family: Nunito;
+
+	--text-hsl: 201, 13%, 25%;
+	--secondary-hsl: 205, 20%, 56%;
+
+	--primary: #FFEDDF;
+	--secondary: hsl(var(--secondary-hsl));
+	--tertiary: #4A3F33;
+	--text-color: hsl(var(--text-hsl));
+	--accent: #C49379;
+
+	background-color: var(--primary);
+}
+
+body {
+	/* background: var(--primary); */
+	/* background: aqua; */
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: min(60ch, 100%)
+	/* position: absolute; */
+	/* inset: 0; */
+}
+
+*{
+	font-family: Nunito;
+	color: var(--text-color);
+}
+
+/* Buttons */
+button {
+	border: none;
+	background: hsla(var(--secondary-hsl), 5%);
+	cursor: pointer;
+	padding: 0.5em;
+	border-radius: 0.5em;
+
+	transition: all 0.2s;
+}
+
+button:hover {
+	background: hsla(var(--secondary-hsl), 20%);
+	transform: scale(102%);
+	/* padding: 0.5em 1em; */
+}
+
+button:active {
+	background: hsla(var(--secondary-hsl), 50%);
+}
