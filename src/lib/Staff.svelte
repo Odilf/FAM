@@ -2,8 +2,8 @@
 	<h2> Get to know our staff! </h2>
 	
 	<menu>
-		<button on:click={() => location.href = '/executive'}> Executive department </button>
 		<button on:click={() => location.href = '/legal'}> Legal department </button>
+		<button on:click={() => location.href = '/executive'}> Executive department </button>
 		<button on:click={() => location.href = '/private-paparazzi'}> Private paparazzi department </button>
 	</menu>
 </body>
