@@ -30,11 +30,11 @@ from
 		font-size: min(10rem, 25vw);
 		margin: 1rem;
 		letter-spacing: 0em;
-		transition: letter-spacing 2s ease-in-out;
+		transition: letter-spacing 0.5s ease-in-out;
 		cursor: pointer;
 	}
 	h1:hover {
-		letter-spacing: 0.1em;
+		letter-spacing: 0.01em;
 	}
 	button {
 		font-size: 1.2rem;
