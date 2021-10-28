@@ -11,25 +11,21 @@
 	--secondary: hsl(var(--secondary-hsl));
 	--tertiary: #4A3F33;
 	--text-color: hsl(var(--text-hsl));
-	--accent: #C49379;
+	--accent: #D0F6F8;
 
 	background-color: var(--primary);
+	color: var(--text-color);
 }
 
 body {
-	/* background: var(--primary); */
-	/* background: aqua; */
 	padding: 0;
 	margin: 0;
 	height: 100%;
 	width: min(60ch, 100%)
-	/* position: absolute; */
-	/* inset: 0; */
 }
 
-*{
-	font-family: Nunito;
-	color: var(--text-color);
+* {
+	font-family: inherit;
 }
 
 /* Buttons */
@@ -51,4 +47,17 @@ button:hover {
 
 button:active {
 	background: hsla(var(--secondary-hsl), 50%);
+}
+
+/* a tag */
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: var(--secondary)
 }
