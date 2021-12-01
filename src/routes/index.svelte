@@ -1,6 +1,6 @@
 <script>
-	import Staff from "$lib/Staff.svelte";
-	import Webcam from "$lib/Webcam.svelte";
+	import Departments from "$lib/Departments.svelte";
+import Staff from "$lib/Staff.svelte";
 </script>
 
 <!-- I don't know why i have to put a body here -->
@@ -20,6 +20,8 @@ from
 <button class=big-button on:click={() => location.href = '/gallery'}> Gallery </button>
 
 <Staff/>
+
+<Departments/>
 
 <!-- <Webcam/> -->
 
@@ -51,10 +53,9 @@ from
 	}
 
 	.big-button {
-		font-size: 3em;
+		font-size: 4em;
 		height: 3em;
 		width: 80vw;
-		/* width: 12em; */
 		margin: 1em;
 	}
 </style>
