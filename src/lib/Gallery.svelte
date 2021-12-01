@@ -1,18 +1,27 @@
 <script>
 	export let photos
+
+	import Slider from "./Slider.svelte";
 </script>
 
 <main>
-	{#each photos as photo}
+	<section>
+		<!-- <Slider> Cute </Slider> -->
+	</section>
+
+	<section>
+		{#each photos as photo}
 		<li>
+			{photo.score([1, 1, 1, 1])}
 			<img src={photo.url} alt={photo.alt} />
 		</li>
-	{/each}
-	<li></li>
+		{/each}
+		<li></li>
+	</section>
 </main>
 
 <style>
-	main {
+	section {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
