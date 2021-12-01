@@ -10,15 +10,14 @@
 	header {
 		position: sticky;
 		top: 0.5rem;
-		/* background-color: var(--secondary); */
 		border-radius: 1em;
 		height: 3em;
-		width: 100%;
+		width: min(600px, 90%);
 
 		opacity: 80%;
 
 		display: grid;
-		/* place-items: center; */
+		z-index: 100;
 	}
 	button {
 		background-color: var(--primary);
