@@ -1,20 +1,29 @@
 <script>
-	export let photos
+	import { flip } from 'svelte/animate'
+	import tippy from 'tippy.js'
 
-	import Slider from "./Slider.svelte";
+	import Input from "./Input.svelte"
+	import { photos, sorted, Parameters } from '$lib/photos'
+
+	let parameters = new Parameters()
+	
 </script>
 
 <main>
-	<section>
-		<!-- <Slider> Cute </Slider> -->
-	</section>
+	<header>
+		{#each Object.entries(parameters) as [parameter, value]}
+			<Input bind:value={parameters[parameter]}> {parameter.charAt(0).toUpperCase() + parameter.slice(1)} </Input>
+		{/each}
+	</header>
 
 	<section>
-		{#each photos as photo}
-		<li>
-			{photo.score([1, 1, 1, 1])}
-			<img src={photo.url} alt={photo.alt} />
-		</li>
+		{#each sorted(parameters) as photo (photo.url)}
+			<li 
+				animate:flip={{duration: 200}} 
+				
+			>
+				<img src={photo.url} alt={photo.alt} />
+			</li>
 		{/each}
 		<li></li>
 	</section>
@@ -25,6 +34,10 @@
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+	}
+	header {
+		display: flex;
+		flex-direction: column;
 	}
 
 	li {

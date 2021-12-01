@@ -2,8 +2,6 @@
 	import Back from "$lib/Back.svelte";
 import Gallery from "$lib/Gallery.svelte";
 
-	import { photos } from '$lib/photos'
-
 	// let split_photos = []
 	// let size = 3
 	// $: while (photos.length > 0)
@@ -13,7 +11,7 @@ import Gallery from "$lib/Gallery.svelte";
 <Back />
 <h1> Gallery </h1>
 
-<Gallery {photos} />
+<Gallery/>
 
 <footer>
 	(More photos are soon to be added)
