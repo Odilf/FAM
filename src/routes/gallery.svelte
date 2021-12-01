@@ -1,14 +1,24 @@
 <script>
 	import Back from "$lib/Back.svelte";
+
+	import { photos } from '$lib/photos'
+
+	// let split_photos = []
+	// let size = 3
+	// $: while (photos.length > 0)
+	// 	split_photos.push(photos.splice(0, size));
 </script>
 
-<Back/>
+<Back />
 <h1> Gallery </h1>
 
 <main>
-	<img src="maggie_material/cool.png" alt='cool'/>
-	<img src="maggie_material/serene.png" alt='serene'/>
-	<img src="maggie_material/floor.png" alt='floor'/>
+	{#each photos as photo}
+		<li>
+			<img src={photo.url} alt={photo.alt} />
+		</li>
+	{/each}
+	<li></li>
 </main>
 
 <footer>
@@ -18,18 +28,38 @@
 <style>
 	main {
 		width: 100%;
-		/* overflow: hidden; */
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		display: flex;
+		flex-wrap: wrap;
 	}
 
+	li {
+		height: 40vh;
+		flex-grow: 1;
+		list-style: none;
+
+		box-sizing: border-box;
+		padding: 1em;
+	}
+	li:last-child {
+		flex-grow: 10;
+	}
 	img {
-		width: 100%;
-		border: solid 1em var(--tertiary) ;
+		max-height: 100%;
+		min-width: 100%;
+		object-fit: cover;
+		vertical-align: bottom;
+		
+		border: 5px solid;
 	}
 
 	footer {
 		padding: 3em;
 		opacity: 40%;
+	}
+
+	@media (max-aspect-ratio: 1/1) {
+		li {
+			height: 20vh;
+		}
 	}
 </style>
