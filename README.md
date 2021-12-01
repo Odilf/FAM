@@ -1,6 +1,6 @@
 # Maggie!
 
-This repository contains the source code for fam.odilf.com, the oficial Maggie fan page
+This repository contains the source code for [the oficial Maggie fan page](https://fam.odilf.com)
 
 *FAM* stands for "Fans y Adoradores de Maggie", and FAMily
 
