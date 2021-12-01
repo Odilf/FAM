@@ -10,12 +10,14 @@
 
 <style>
 	body {
-		background-color: var(--tertiary);
-		/* color: var(--primary); */
-		color: white;
-		padding: 0.5em 2em;
 		width: 100%;
+		background-color: var(--tertiary);
+		color: white;
+
+		padding: 0.5em 2em;
 		border-radius: 1em;
+
+		box-sizing: border-box;
 	}
 	h2 {
 		color: var(--primary);

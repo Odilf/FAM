@@ -14,7 +14,7 @@
 
 		box-sizing: border-box;
 		width: 100vw;
-		padding: min(5em, 10vw);
+		padding: min(4em, 5vw);
 		background-color: var(--primary);
 	}
 </style>
