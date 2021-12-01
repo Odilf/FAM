@@ -1,11 +1,6 @@
 <script>
 	import Back from "$lib/Back.svelte";
-import Gallery from "$lib/Gallery.svelte";
-
-	// let split_photos = []
-	// let size = 3
-	// $: while (photos.length > 0)
-	// 	split_photos.push(photos.splice(0, size));
+	import Gallery from "$lib/Gallery.svelte";
 </script>
 
 <Back />

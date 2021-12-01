@@ -64,13 +64,17 @@
 		background-color: hsla(var(--tertiary-hsl), 50%);
 		margin: 0;
 
-		z-index: 10;
-		display: grid;
-		place-items: center;
+		z-index: 200;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.fullscreen {
-		width: min(600px, 90vw);
+		width: min(900px, 90vw);
+
+		padding: 20px;
+		box-sizing: border-box;
 	}
 
 	info {
@@ -96,7 +100,6 @@
 		position: relative;
 
 		height: 100%;
-		width: 100%;
 		object-fit: cover;
 		vertical-align: middle;
 
@@ -119,9 +122,11 @@
 	}
 
 	.fullscreen-photo { 
-		object-fit: contain;
+		object-fit: cover;
 		width: 100%;
 		height: 100%;
+
+		max-height: 95vh;
 		border: 5px solid;
 	}
 </style>
