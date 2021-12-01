@@ -3,22 +3,24 @@ export class Parameters {
 	cozy: number
 	royalty: number
 	swag: number
-	lazyness: number
+	lazy: number
 
-	constructor(values = Array<number>(5)) {
-		const total = values.reduce((acc, cur) => acc + cur, 0)
-		values = values.map(v => v / total)
+	constructor(values = Array<number>(5), normalize = true) {
+		if (normalize) {
+			const total = values.reduce((acc, cur) => acc + cur, 0)
+			values = values.map(v => v / total)
+		}
 
 		this.cute = values[0]
 		this.cozy = values[1]
 		this.royalty = values[2]
 		this.swag = values[3]
-		this.lazyness = values[4]
+		this.lazy = values[4]
 	}
 }
 
 export class Photo {
-	url: string
+	src: string
 	alt: string
 	parameters?: Parameters
 
@@ -30,9 +32,9 @@ export class Photo {
 		return score
 	}
 
-	constructor(alt: string, url: string, parameters: number[]) {
+	constructor(alt: string, src: string, parameters: number[]) {
 		this.alt = alt
-		this.url = url
+		this.src = src
 		this.parameters = new Parameters(parameters)
 	}
 }

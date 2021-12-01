@@ -6,10 +6,11 @@
 
 	--text-hsl: 201, 13%, 25%;
 	--secondary-hsl: 205, 20%, 56%;
+	--tertiary-hsl: 31, 18%, 25%;
 
 	--primary: #FFEDDF;
 	--secondary: hsl(var(--secondary-hsl));
-	--tertiary: #4A3F33;
+	--tertiary: hsl(var(--tertiary-hsl));
 	--text-color: hsl(var(--text-hsl));
 	--accent: #D0F6F8;
 
