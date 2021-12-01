@@ -1,6 +1,6 @@
 <script>
 	import Departments from "$lib/Departments.svelte";
-import Staff from "$lib/Staff.svelte";
+import Staff from "$lib/StaffButton.svelte";
 </script>
 
 <!-- I don't know why i have to put a body here -->
