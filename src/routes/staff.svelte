@@ -1,7 +1,6 @@
 <script>
 	import Back from "$lib/Back.svelte";
-import Card from "$lib/Card.svelte";
-import Staff from "$lib/Staff.svelte";
+	import Staff from "$lib/Staff.svelte";
 </script>
 
 <Back/>
@@ -13,8 +12,6 @@ import Staff from "$lib/Staff.svelte";
 <Staff/>
 
 <style>
-	
-
 	p {
 		text-align: center;
 	}
