@@ -47,11 +47,11 @@
 		<p>
 			Score calculated based on: 
 		<ul>
-			<li> Coziness: {parameters.cozy.toFixed(3)}</li>
 			<li> Cuteness: {parameters.cute.toFixed(3)}</li>
-			<li> Laziness: {parameters.lazy.toFixed(3)}</li>
+			<li> Coziness: {parameters.cozy.toFixed(3)}</li>
 			<li> Royaltiness: {parameters.royalty.toFixed(3)}</li>
 			<li> Swagness: {parameters.swag.toFixed(3)}</li>
+			<li> Laziness: {parameters.lazy.toFixed(3)}</li>
 		</ul>
 	</info>
 	<img {src} {alt} class='flow-photo'/>
