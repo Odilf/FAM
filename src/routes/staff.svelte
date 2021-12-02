@@ -9,9 +9,6 @@ import Staff from "$lib/Staff.svelte";
 <p>
 	This is a carefully run operation by profesionals. 
 </p>
-<p>
-	All of these people are very lovely people indeed. 
-</p>
 
 <Staff/>
 
