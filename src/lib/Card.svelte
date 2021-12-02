@@ -1,13 +1,16 @@
 <script lang="ts">
 	export let color = 'var(--secondary)'
-	export let photo_src: string
 	export let expanded = false
+
+	import type { Photo } from '$lib/photos'
+
+	export let photo: Photo
 
 </script>
 
 <main style='--color: {color}' on:click={() => expanded = !expanded} class:expanded>
 	<header>
-		<img src={photo_src} alt='Clara, for now'>
+		<img src={photo.src} alt={photo.alt}>
 		<h1> <slot name='heading'/> </h1>
 	</header>
 	<section>
