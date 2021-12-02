@@ -1,4 +1,3 @@
-
 <button on:click={() => location.href = '/staff'}> 
 	<h1> Get to know our staff! </h1>
 </button>
