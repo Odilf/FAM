@@ -2,9 +2,9 @@
 	<h2> Departments </h2>
 	
 	<menu>
-		<button on:click={() => location.href = '/legal'}> Legal department </button>
-		<button on:click={() => location.href = '/executive'}> Executive department </button>
-		<button on:click={() => location.href = '/private-paparazzi'}> Private paparazzi department </button>
+		<button on:click={() => location.href = '/departments/legal'}> Legal department </button>
+		<button on:click={() => location.href = '/departments/executive'}> Executive department </button>
+		<button on:click={() => location.href = '/departments/private-paparazzi'}> Private paparazzi department </button>
 	</menu>
 </body>
 

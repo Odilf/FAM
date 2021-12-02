@@ -12,7 +12,7 @@
 			Clara is considered the mother of Maggie. Tactical repositioning of the headquarters have made that Clara can always be in extremely near proximity to Maggie, since day-long care is essential to her wellbeing.
 		</p>
 		<p>
-			Furthermore, being the head of the <a href='private-paparazzi'> private paparazzi </a> department, Clara is an expert at loving Maggie. She's a loyal devotee that has deep knoledge about how Maggie is best portrayed in print.
+			Furthermore, being the head of the <a href='/departments/private-paparazzi'> private paparazzi </a> department, Clara is an expert at loving Maggie. She's a loyal devotee that has deep knoledge about how Maggie is best portrayed in print.
 		</p>
 	</Card>
 	
@@ -36,7 +36,7 @@
 			Ody is in charge of all things technical related to the conservation and elevation of the image of Maggie.
 		</p>
 		<p>
-			Ody operates the <a href='/executive'> executive department </a> as Odilf, and the <a href="/legal"> legal department </a> as OdilfGamer, the most menacing version of Odilf. 
+			Ody operates the <a href='/departments/executive'> executive department </a> as Odilf, and the <a href="/departments/legal"> legal department </a> as OdilfGamer, the most menacing version of Odilf. 
 		</p>
 	</Card>
 </section>
