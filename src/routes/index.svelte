@@ -6,14 +6,16 @@
 <!-- I don't know why i have to put a body here -->
 <body/>
 
-<h1>Maggie!</h1>
+<h1> Maggie! </h1>
 
-<h2> Maggie Fan and Worship Club</h2>
+<p> FAMM </p>
+
+<h2> Maggie and Marisol Fan and Worship Club</h2>
 
 from
 
 
-<h3> Club de Fans y Adoradores de Maggie </h3>
+<h3> Club de Fans y Adoradores de Maggie y Marisol </h3>
 
 <img src="maggie!.svg" alt='maggie!' />
 
